@@ -124,3 +124,22 @@ body {
   transform: translate(-50%, -50%);
   text-align: center;
 }
+
+.under {
+  border-bottom: 2px solid #d60d0d;
+}
+
+/********************************/
+@media (max-width: 417px) {
+  .res_h1 {
+    font-size: 2.2rem;
+  }
+
+  .res_h3 {
+    font-size: 1.75rem;
+  }
+
+  .myBtn {
+    display: none;
+  }
+}
