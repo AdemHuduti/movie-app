@@ -27,6 +27,7 @@ class TVCards extends Component {
               <h4 className="mb-3 card-title"> {item.name}</h4>
             </div>
             <span className="small movie-vote float-right">{item.vote_average}</span>
+            <small className="text-muted date-text">{item.first_air_date}</small>
             <span className="small float-right movie-more mt-3">
               <Link to={`/tvshow/${item.id}`}>
                 More
