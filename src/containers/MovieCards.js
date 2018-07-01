@@ -30,7 +30,7 @@ class MovieCards extends React.Component {
             </div>
             
             <span className="small movie-vote float-right">{item.vote_average}</span>
-            <small className="text-muted date-text">{item.release_date}</small>
+            <small className="text-muted date-text">{item.first_air_date}</small>
               <span className="small float-right movie-more mt-3">
                 <Link to={`/movie/${item.id}`}>
                   More
