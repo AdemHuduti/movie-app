@@ -1,0 +1,31 @@
+.formResults {
+  position: absolute;
+  z-index: 9999;
+  width: 100%;
+  /* height: 500px; */
+  
+  text-align: left;
+}
+
+.formResults li {
+  list-style: none;
+  /* background-color: #263238; */
+  background-image: linear-gradient(to right, #373B44, #4286f4);
+  transition: all 0.35s ease-out;
+}
+
+.formResults li:hover {
+  background-color: #000;
+}
+
+.formResults a {
+  color: #fff;
+  display: flex;
+  padding: 20px 20px;
+}
+
+.resultPoster {
+  width: 100px;
+  margin-right: 20px;
+  align-self: center;
+}
