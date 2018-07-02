@@ -23,7 +23,7 @@ class TVCards extends Component {
           </div>
 
           <div className="card-body">
-            <div className="">
+            <div className="text-left">
               <h4 className="mb-3 card-title"> {item.name}</h4>
             </div>
             <span className="small movie-vote float-right">{item.vote_average}</span>
