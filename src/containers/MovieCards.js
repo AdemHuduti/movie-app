@@ -25,7 +25,7 @@ class MovieCards extends React.Component {
           </div>
 
           <div className="card-body">
-            <div className="text-left">
+            <div className="text-left card-title">
               <h4 className="mb-4"> {item.title}</h4>
             </div>
             
