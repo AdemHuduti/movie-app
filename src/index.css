@@ -133,7 +133,7 @@ body {
     border-bottom: 2px solid #fff;
   }
 
-  a:visited {
+  .card a:visited {
     color: #fff;
   }
 
