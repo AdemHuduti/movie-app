@@ -8,12 +8,10 @@ import { Link } from 'react-router-dom';
 
 class MovieCards extends React.Component {
   
-  // Call method from actions
   componentDidMount() {
     this.props.fetchMovie();
   }
 
-  // Create method for displaying movie and call it in render function
   movieData() {
     const { movies } = this.props;
     return _.map(movies, (item, index) => {
