@@ -10,7 +10,6 @@ const URL = `https://api.themoviedb.org/3/movie/top_rated?api_key=${API_KEY}&lan
 // Top rated tv-shows
 const URL_TV = `https://api.themoviedb.org/3/tv/top_rated?api_key=${API_KEY}&language=en-US&page=1`
 
-// Fetch movie function
 export function fetchMovie() {
   const request = axios.get(URL);
 
@@ -20,7 +19,6 @@ export function fetchMovie() {
   };
 };
 
-// Fetch tv shows function
 export function fetchTVShows() {
   const request = axios.get(URL_TV);
 
