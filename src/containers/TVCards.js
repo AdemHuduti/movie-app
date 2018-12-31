@@ -11,7 +11,6 @@ class TVCards extends Component {
     this.props.fetchTVShows();
   }
 
-  // Make method for displaying tv shows and call it in render function
   getTvShowsData() {
     const { tv } = this.props;
     return _.map(tv, (item, index) => {
